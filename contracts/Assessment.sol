@@ -56,7 +56,7 @@ contract Assessment {
     function userProfile() public view returns (string memory, string memory, string memory) {
         string memory defaultName = "Chethan";
         string memory defaultEmail = "chethan@example.com";
-        string memory defaultPhone = "1234567890";
+        string memory defaultPhone = "1234";
         
         // Return default details if any of the profile fields are empty
         if (bytes(name).length == 0 || bytes(email).length == 0 || bytes(phone).length == 0) {
