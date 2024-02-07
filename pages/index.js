@@ -11,7 +11,7 @@ export default function HomePage() {
   // User profile state
   const [name, setName] = useState("Chethan");
   const [email, setEmail] = useState("chethan@example.com");
-  const [phone, setPhone] = useState("1234567890");
+  const [phone, setPhone] = useState("1234");
   const [isEditing, setIsEditing] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
   const [selectedAmount, setSelectedAmount] = useState(10);
