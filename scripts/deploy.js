@@ -5,7 +5,7 @@ async function main() {
     const initBalance = 1000; // Example initial balance
     const name = "Chethan"; // Updated name to Chethan
     const email = "chethan@example.com"; // Updated email to a sample email
-    const phone = "1234567890"; // Updated phone to a sample phone number
+    const phone = "1234"; // Updated phone to a sample phone number
 
     const provider = new ethers.providers.JsonRpcProvider(); // Replace with your provider
     const signer = provider.getSigner(); // Replace with your signer
